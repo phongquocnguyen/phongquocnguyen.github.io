@@ -270,6 +270,35 @@ section {
     border: 1px solid var(--border);
 }
 
+.experience-header {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.company-logo {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.company-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.experience-text {
+    flex: 1;
+}
+
 .timeline-content h3 {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -286,7 +315,7 @@ section {
 .timeline-date {
     font-size: 0.9rem;
     color: var(--text-muted);
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-style: italic;
 }
 
@@ -600,6 +629,16 @@ section {
 
     .timeline-marker {
         left: 1px;
+    }
+
+    .experience-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .company-logo {
+        width: 60px;
+        height: 60px;
     }
 
     .footer .container {
