@@ -4,64 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phong Nguyen | Analytics Engineer & Data Professional</title>
-    <meta name="description" content="Phong Nguyen - Analytics Engineer & Data Professional specializing in data engineering, analytics, and business intelligence">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">Phong Nguyen</div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <!-- Profile Photo -->
+            <div class="sidebar-photo">
+                <img src="profile-photo.png" alt="Phong Nguyen">
+            </div>
+            
+            <!-- Name & Title -->
+            <div class="sidebar-header">
+                <h1 class="sidebar-name">Phong Nguyen</h1>
+                <p class="sidebar-title">Analytics Engineer</p>
+            </div>
+            
+            <!-- Navigation Menu -->
+            <nav class="sidebar-nav">
+                <a href="#home" class="nav-link active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </a>
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Experience</span>
+                </a>
+                <a href="#education" class="nav-link">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Education</span>
+                </a>
+                <a href="#skills" class="nav-link">
+                    <i class="fas fa-code"></i>
+                    <span>Skills</span>
+                </a>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Projects</span>
+                </a>
+            </nav>
+            
+            <!-- Social Links -->
+            <div class="sidebar-social">
+                <a href="https://www.linkedin.com/in/phong-nguyen-71a424140/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/phongquocnguyen" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="sidebar-footer">
+                <p>&copy; 2026 Phong Nguyen</p>
             </div>
         </div>
-    </nav>
+    </aside>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-wrapper">
-                <div class="hero-photo">
-                    <div class="photo-frame">
-                        <img src="profile-photo.png" alt="Phong Nguyen - Analytics Engineer">
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-toggle" id="mobile-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section hero-section">
+            <div class="section-container">
+                <h2 class="hero-greeting">Hi, I'm <span class="gradient-text">Phong Nguyen</span></h2>
+                <p class="hero-subtitle">Analytics Engineer & Data Professional</p>
+                <p class="hero-description">
+                    Transforming complex data into actionable insights. Building scalable data pipelines, 
+                    analytics platforms, and data-driven solutions across healthcare, international development, 
+                    and enterprise sectors in ASEAN.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Experience</div>
                     </div>
-                </div>
-                <div class="hero-content">
-                    <h1 class="hero-title">Hi, I'm <span class="gradient-text">Phong Nguyen</span></h1>
-                    <p class="hero-subtitle">Analytics Engineer & Data Professional</p>
-                    <p class="hero-description">
-                        Transforming complex data into actionable insights. Building scalable data pipelines, 
-                        analytics platforms, and data-driven solutions across healthcare, international development, 
-                        and enterprise sectors in ASEAN.
-                    </p>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/phong-nguyen-71a424140/" target="_blank" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/phongquocnguyen" target="_blank" aria-label="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
+                    <div class="stat-item">
+                        <div class="stat-number">70%</div>
+                        <div class="stat-label">Efficiency Gains</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5M+</div>
+                        <div class="stat-label">Records Processed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Countries</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
                     <p>
                         I'm a data professional with dual Master's degrees in Economics and Political Science, 
                         specializing in building enterprise analytics platforms and data engineering solutions. 
@@ -72,406 +120,365 @@
                         and implementing data governance frameworks. I've consistently delivered measurable impact across 
                         healthcare operations, climate resilience, and public health programs.
                     </p>
-                    <div class="quick-facts">
-                        <div class="fact">
-                            <i class="fas fa-briefcase"></i>
-                            <div>
-                                <h4>5+ Years</h4>
-                                <p>Professional Experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div class="company-logo">
+                                    <img src="xephyr-logo.png" alt="Xephyr">
+                                </div>
+                                <div class="experience-text">
+                                    <h3>Analytics Engineer</h3>
+                                    <h4>Xephyr | Sydney, Australia (Remote)</h4>
+                                    <p class="timeline-date">Aug 2024 – Present</p>
+                                </div>
                             </div>
+                            <ul>
+                                <li>Built multi-source ETL pipelines integrating 5 enterprise systems using SQL, Python, dbt, and Prefect</li>
+                                <li>Led Snowflake migration reducing infrastructure costs by 25% and improving query performance 3x</li>
+                                <li>Deployed Power BI dashboards that reduced manual reporting by 70% for A$45B disability services sector</li>
+                                <li>Established data governance standards across 8-person analytics team, reducing data errors by 60%</li>
+                            </ul>
                         </div>
-                        <div class="fact">
-                            <i class="fas fa-chart-line"></i>
-                            <div>
-                                <h4>70%</h4>
-                                <p>Avg. Efficiency Gain</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div class="company-logo">
+                                    <img src="ciat-logo.png" alt="Alliance Bioversity - CIAT">
+                                </div>
+                                <div class="experience-text">
+                                    <h3>Analytics Consultant (Contract)</h3>
+                                    <h4>Alliance Bioversity International - CIAT | Hanoi, Vietnam</h4>
+                                    <p class="timeline-date">Aug 2024 – Sep 2025</p>
+                                </div>
                             </div>
+                            <ul>
+                                <li>Managed US$0.5M UNDP climate resilience portfolio across 6 Asian countries</li>
+                                <li>Built forecasting models achieving 85% prediction accuracy informing $500K+ in investments</li>
+                                <li>Streamlined data pipelines reducing preparation time by 40% and processing speed by 30%</li>
+                            </ul>
                         </div>
-                        <div class="fact">
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div class="company-logo">
+                                    <img src="fhi360-logo.png" alt="FHI 360">
+                                </div>
+                                <div class="experience-text">
+                                    <h3>Program Officer – Monitoring & Evaluation</h3>
+                                    <h4>FHI 360 | Hanoi, Vietnam</h4>
+                                    <p class="timeline-date">Oct 2023 – Aug 2024</p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Strengthened M&E frameworks for maternal health programs serving 500K+ beneficiaries across 2 countries</li>
+                                <li>Built real-time Power BI dashboards tracking 25+ KPIs, increasing operational efficiency by 30%</li>
+                                <li>Produced analytical reports securing continued multi-year funding from Gates Foundation and UNICEF</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div class="company-logo">
+                                    <img src="uf-logo.png" alt="University of Florida">
+                                </div>
+                                <div class="experience-text">
+                                    <h3>Doctoral Researcher</h3>
+                                    <h4>University of Florida | Gainesville, USA</h4>
+                                    <p class="timeline-date">Aug 2020 – May 2023</p>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Built Azure data warehouse integrating 500+ economic indicators across 10 ASEAN economies</li>
+                                <li>Developed scalable ML pipelines on HPC infrastructure, reducing analysis time from weeks to hours</li>
+                                <li>Applied econometric methods to policy analysis, presenting findings at regional forums</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="education-grid">
+                    <a href="https://www.timeshighereducation.com/world-university-rankings/georgia-institute-technology" target="_blank" class="education-card-link">
+                        <div class="education-card">
+                            <div class="education-logo">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRi6qTyWk4AbO0kjaL4JUzW_hUqOr_nDCbUA&s" alt="Georgia Institute of Technology">
+                            </div>
+                            <h3>Master of Science in Analytics (OMSA)</h3>
+                            <h4>Georgia Institute of Technology</h4>
+                            <p class="education-date">2027 (Expected)</p>
+                            <p class="education-focus">Computational Data Analytics · Machine Learning · Advanced Statistics</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.timeshighereducation.com/world-university-rankings/university-illinois-urbana-champaign" target="_blank" class="education-card-link">
+                        <div class="education-card">
+                            <div class="education-logo">
+                                <img src="https://brand.illinois.edu/wp-content/uploads/2024/02/Block-I-orange-blue-background.png" alt="University of Illinois">
+                            </div>
+                            <h3>Master of Science in Economics</h3>
+                            <h4>University of Illinois at Urbana-Champaign</h4>
+                            <p class="education-date">2019</p>
+                            <p class="education-focus">Econometrics · Applied Statistics · Labor Economics</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.timeshighereducation.com/world-university-rankings/university-florida" target="_blank" class="education-card-link">
+                        <div class="education-card">
+                            <div class="education-logo">
+                                <img src="https://brandcenter.p01.wp.it.ufl.edu/wp-content/uploads/sites/57/2024/05/NEW-IMAGES_UF-Logo_University-Logo-768x789-1-292x300.png" alt="University of Florida">
+                            </div>
+                            <h3>Master of Arts in Political Science</h3>
+                            <h4>University of Florida</h4>
+                            <p class="education-date">2023</p>
+                            <p class="education-focus">Quantitative Methods · ASEAN Political Economy · Regional Integration</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.timeshighereducation.com/world-university-rankings/university-minnesota" target="_blank" class="education-card-link">
+                        <div class="education-card">
+                            <div class="education-logo">
+                                <img src="https://cdn.brandfetch.io/idjDRN9GJw/w/300/h/300/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1681760598751" alt="University of Minnesota">
+                            </div>
+                            <h3>Bachelor of Arts in Economics</h3>
+                            <h4>University of Minnesota</h4>
+                            <p class="education-date">2017</p>
+                            <p class="education-focus">Quantitative Analysis · Applied Economics</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming</h3>
+                        <div class="skill-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">R</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon">
                             <i class="fas fa-database"></i>
-                            <div>
-                                <h4>5M+</h4>
-                                <p>Records Processed</p>
+                        </div>
+                        <h3>Data Engineering</h3>
+                        <div class="skill-tags">
+                            <span class="tag">dbt</span>
+                            <span class="tag">Prefect</span>
+                            <span class="tag">Snowflake</span>
+                            <span class="tag">Azure</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Analytics & BI</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Tableau</span>
+                            <span class="tag">Excel</span>
+                            <span class="tag">DHIS 2</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Advanced Analytics</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Forecasting</span>
+                            <span class="tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3>Methodologies</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Econometrics</span>
+                            <span class="tag">Causal Inference</span>
+                            <span class="tag">M&E</span>
+                            <span class="tag">Impact Assessment</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="tag">English (Fluent)</span>
+                            <span class="tag">Vietnamese (Native)</span>
+                            <span class="tag">Japanese (Basic)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-container">
+                <h2 class="section-title">Key Projects</h2>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <h3>Disability Services Analytics Platform</h3>
+                        <p class="project-description">
+                            Enterprise ETL infrastructure integrating Salesforce, Chris21, and Azure SQL Database 
+                            to automate reporting for A$45B disability services sector.
+                        </p>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>Python</span>
+                            <span>dbt</span>
+                            <span>Power BI</span>
+                            <span>Azure</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-metric">
+                                <strong>70%</strong>
+                                <span>Time Saved</span>
+                            </div>
+                            <div class="impact-metric">
+                                <strong>10K+</strong>
+                                <span>Beneficiaries</span>
                             </div>
                         </div>
-                        <div class="fact">
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h3>Climate Resilience Forecasting</h3>
+                        <p class="project-description">
+                            Machine learning models for agricultural yield prediction across 6 Asian countries, 
+                            informing US$0.5M UNDP climate adaptation investments.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>R</span>
+                            <span>ML Models</span>
+                            <span>Time Series</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-metric">
+                                <strong>85%</strong>
+                                <span>Accuracy</span>
+                            </div>
+                            <div class="impact-metric">
+                                <strong>$500K+</strong>
+                                <span>Investment</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Maternal Health M&E System</h3>
+                        <p class="project-description">
+                            Real-time monitoring dashboard tracking 25+ KPIs across maternal and child nutrition 
+                            programs in Vietnam and Indonesia.
+                        </p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>DHIS 2</span>
+                            <span>SQL</span>
+                            <span>DAX</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-metric">
+                                <strong>500K+</strong>
+                                <span>Beneficiaries</span>
+                            </div>
+                            <div class="impact-metric">
+                                <strong>30%</strong>
+                                <span>Efficiency Gain</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
                             <i class="fas fa-globe-asia"></i>
-                            <div>
-                                <h4>10+ Countries</h4>
-                                <p>ASEAN Experience</p>
+                        </div>
+                        <h3>ASEAN Economic Integration Database</h3>
+                        <p class="project-description">
+                            Azure-based data warehouse integrating 500+ macroeconomic indicators across 10 ASEAN 
+                            economies for academic research and policy analysis.
+                        </p>
+                        <div class="project-tech">
+                            <span>Azure</span>
+                            <span>SQL Server</span>
+                            <span>Python</span>
+                            <span>R</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-metric">
+                                <strong>500+</strong>
+                                <span>Indicators</span>
+                            </div>
+                            <div class="impact-metric">
+                                <strong>10</strong>
+                                <span>Countries</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="company-logo">
-                                <img src="xephyr-logo.png" alt="Xephyr">
-                            </div>
-                            <div class="experience-text">
-                                <h3>Analytics Engineer</h3>
-                                <h4>Xephyr | Sydney, Australia (Remote)</h4>
-                                <p class="timeline-date">Aug 2024 – Present</p>
-                            </div>
-                        </div>
-                        <ul>
-                            <li>Built multi-source ETL pipelines integrating 5 enterprise systems using SQL, Python, dbt, and Prefect</li>
-                            <li>Led Snowflake migration reducing infrastructure costs by 25% and improving query performance 3x</li>
-                            <li>Deployed Power BI dashboards that reduced manual reporting by 70% for A$45B disability services sector</li>
-                            <li>Established data governance standards across 8-person analytics team, reducing data errors by 60%</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="company-logo">
-                                <img src="ciat-logo.png" alt="Alliance Bioversity - CIAT">
-                            </div>
-                            <div class="experience-text">
-                                <h3>Analytics Consultant (Contract)</h3>
-                                <h4>Alliance Bioversity International - CIAT | Hanoi, Vietnam</h4>
-                                <p class="timeline-date">Aug 2024 – Sep 2025</p>
-                            </div>
-                        </div>
-                        <ul>
-                            <li>Managed US$0.5M UNDP climate resilience portfolio across 6 Asian countries</li>
-                            <li>Built forecasting models achieving 85% prediction accuracy informing $500K+ in investments</li>
-                            <li>Streamlined data pipelines reducing preparation time by 40% and processing speed by 30%</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="company-logo">
-                                <img src="fhi360-logo.png" alt="FHI 360">
-                            </div>
-                            <div class="experience-text">
-                                <h3>Program Officer – Monitoring & Evaluation</h3>
-                                <h4>FHI 360 | Hanoi, Vietnam</h4>
-                                <p class="timeline-date">Oct 2023 – Aug 2024</p>
-                            </div>
-                        </div>
-                        <ul>
-                            <li>Strengthened M&E frameworks for maternal health programs serving 500K+ beneficiaries across 2 countries</li>
-                            <li>Built real-time Power BI dashboards tracking 25+ KPIs, increasing operational efficiency by 30%</li>
-                            <li>Produced analytical reports securing continued multi-year funding from Gates Foundation and UNICEF</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="experience-header">
-                            <div class="company-logo">
-                                <img src="uf-logo.png" alt="University of Florida">
-                            </div>
-                            <div class="experience-text">
-                                <h3>Doctoral Researcher</h3>
-                                <h4>University of Florida | Gainesville, USA</h4>
-                                <p class="timeline-date">Aug 2020 – May 2023</p>
-                            </div>
-                        </div>
-                        <ul>
-                            <li>Built Azure data warehouse integrating 500+ economic indicators across 10 ASEAN economies</li>
-                            <li>Developed scalable ML pipelines on HPC infrastructure, reducing analysis time from weeks to hours</li>
-                            <li>Applied econometric methods to policy analysis, presenting findings at regional forums</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="education" class="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-grid">
-                <a href="https://www.timeshighereducation.com/world-university-rankings/georgia-institute-technology" target="_blank" class="education-card-link">
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Georgia_Tech_seal.svg/300px-Georgia_Tech_seal.svg.png" alt="Georgia Institute of Technology">
-                        </div>
-                        <h3>Master of Science in Analytics (OMSA)</h3>
-                        <h4>Georgia Institute of Technology</h4>
-                        <p class="education-date">2027 (Expected)</p>
-                        <p class="education-focus">Computational Data Analytics · Machine Learning · Advanced Statistics</p>
-                    </div>
-                </a>
-
-                <a href="https://www.timeshighereducation.com/world-university-rankings/university-illinois-urbana-champaign" target="_blank" class="education-card-link">
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="https://brand.illinois.edu/wp-content/uploads/2024/02/Block-I-orange-blue-background.png" alt="University of Illinois">
-                        </div>
-                        <h3>Master of Science in Economics</h3>
-                        <h4>University of Illinois at Urbana-Champaign</h4>
-                        <p class="education-date">2019</p>
-                        <p class="education-focus">Econometrics · Applied Statistics · Labor Economics</p>
-                    </div>
-                </a>
-
-                <a href="https://www.timeshighereducation.com/world-university-rankings/university-florida" target="_blank" class="education-card-link">
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="https://brandcenter.p01.wp.it.ufl.edu/wp-content/uploads/sites/57/2024/05/NEW-IMAGES_UF-Logo_University-Logo-768x789-1-292x300.png" alt="University of Florida">
-                        </div>
-                        <h3>Master of Arts in Political Science</h3>
-                        <h4>University of Florida</h4>
-                        <p class="education-date">2023</p>
-                        <p class="education-focus">Quantitative Methods · ASEAN Political Economy · Regional Integration</p>
-                    </div>
-                </a>
-
-                <a href="https://www.timeshighereducation.com/world-university-rankings/university-minnesota" target="_blank" class="education-card-link">
-                    <div class="education-card">
-                        <div class="education-logo">
-                            <img src="https://cdn.brandfetch.io/idjDRN9GJw/w/300/h/300/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1681760598751" alt="University of Minnesota">
-                        </div>
-                        <h3>Bachelor of Arts in Economics</h3>
-                        <h4>University of Minnesota</h4>
-                        <p class="education-date">2017</p>
-                        <p class="education-focus">Quantitative Analysis · Applied Economics</p>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Programming & Database</h3>
-                    <div class="skill-tags">
-                        <span class="tag">SQL</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">R</span>
-                        <span class="tag">PostgreSQL</span>
-                        <span class="tag">Snowflake</span>
-                        <span class="tag">Azure SQL</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3>Data Engineering</h3>
-                    <div class="skill-tags">
-                        <span class="tag">dbt</span>
-                        <span class="tag">Prefect</span>
-                        <span class="tag">ETL/ELT</span>
-                        <span class="tag">Data Warehousing</span>
-                        <span class="tag">Cloud Platforms</span>
-                        <span class="tag">CI/CD</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-chart-bar"></i>
-                    </div>
-                    <h3>Analytics & BI</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Power BI</span>
-                        <span class="tag">Tableau</span>
-                        <span class="tag">Excel</span>
-                        <span class="tag">DAX</span>
-                        <span class="tag">Data Visualization</span>
-                        <span class="tag">Statistical Analysis</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-brain"></i>
-                    </div>
-                    <h3>Advanced Analytics</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Machine Learning</span>
-                        <span class="tag">Econometrics</span>
-                        <span class="tag">Causal Inference</span>
-                        <span class="tag">Predictive Modeling</span>
-                        <span class="tag">A/B Testing</span>
-                        <span class="tag">Time Series</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-project-diagram"></i>
-                    </div>
-                    <h3>Methodologies</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Agile/Scrum</span>
-                        <span class="tag">Data Governance</span>
-                        <span class="tag">M&E Frameworks</span>
-                        <span class="tag">Impact Evaluation</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <div class="skill-icon">
-                        <i class="fas fa-language"></i>
-                    </div>
-                    <h3>Languages</h3>
-                    <div class="skill-tags">
-                        <span class="tag">Vietnamese (Native)</span>
-                        <span class="tag">English (Fluent)</span>
-                        <span class="tag">Japanese (Basic)</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-cloud"></i>
-                    </div>
-                    <h3>Enterprise Data Warehouse Migration</h3>
-                    <p class="project-description">
-                        Led Snowflake migration for A$45B disability services sector, integrating 5 enterprise systems 
-                        with zero downtime. Reduced infrastructure costs by 25% and improved query performance 3x.
-                    </p>
-                    <div class="project-tech">
-                        <span>Snowflake</span>
-                        <span>dbt</span>
-                        <span>Azure SQL</span>
-                        <span>Python</span>
-                    </div>
-                    <div class="project-impact">
-                        <div class="impact-metric">
-                            <strong>25%</strong>
-                            <span>Cost Reduction</span>
-                        </div>
-                        <div class="impact-metric">
-                            <strong>3x</strong>
-                            <span>Performance</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-seedling"></i>
-                    </div>
-                    <h3>Climate Resilience Analytics</h3>
-                    <p class="project-description">
-                        Built forecasting models achieving 85% prediction accuracy for agricultural yields across 6 Asian countries. 
-                        Recommendations adopted into 3 national strategies.
-                    </p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>ML Models</span>
-                        <span>Statistical Analysis</span>
-                    </div>
-                    <div class="project-impact">
-                        <div class="impact-metric">
-                            <strong>85%</strong>
-                            <span>Accuracy</span>
-                        </div>
-                        <div class="impact-metric">
-                            <strong>$500K+</strong>
-                            <span>Investment</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-heartbeat"></i>
-                    </div>
-                    <h3>Multi-Country Health M&E</h3>
-                    <p class="project-description">
-                        Real-time dashboard tracking 25+ health indicators for programs serving 500K+ beneficiaries. 
-                        Secured continued multi-year donor funding.
-                    </p>
-                    <div class="project-tech">
-                        <span>Power BI</span>
-                        <span>DHIS 2</span>
-                        <span>SQL Server</span>
-                    </div>
-                    <div class="project-impact">
-                        <div class="impact-metric">
-                            <strong>30%</strong>
-                            <span>Efficiency</span>
-                        </div>
-                        <div class="impact-metric">
-                            <strong>500K+</strong>
-                            <span>Beneficiaries</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>Automated Reporting Infrastructure</h3>
-                    <p class="project-description">
-                        End-to-end ETL pipelines reducing manual reporting by 70%, freeing 40 analyst hours weekly 
-                        for strategic work.
-                    </p>
-                    <div class="project-tech">
-                        <span>dbt</span>
-                        <span>Prefect</span>
-                        <span>SQL</span>
-                        <span>Power BI</span>
-                    </div>
-                    <div class="project-impact">
-                        <div class="impact-metric">
-                            <strong>70%</strong>
-                            <span>Time Saved</span>
-                        </div>
-                        <div class="impact-metric">
-                            <strong>60%</strong>
-                            <span>Error Reduction</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Phong Nguyen. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://www.linkedin.com/in/phong-nguyen-71a424140/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/phongquocnguyen" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </div>
-        </div>
-    </footer>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
