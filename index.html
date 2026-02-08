@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Animated Background Shapes -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+    </div>
+
     <!-- Sidebar Navigation -->
     <aside class="sidebar">
         <div class="sidebar-content">
@@ -121,6 +130,82 @@
                         healthcare operations, climate resilience, and public health programs.
                     </p>
                 </div>
+
+                <!-- Currently Section -->
+                <div class="currently-section">
+                    <h3 class="currently-title">Currently</h3>
+                    <div class="currently-grid">
+                        <div class="currently-item">
+                            <div class="currently-icon">📚</div>
+                            <div class="currently-label">Learning</div>
+                            <div class="currently-value">Georgia Tech OMSA Program</div>
+                        </div>
+                        <div class="currently-item">
+                            <div class="currently-icon">💼</div>
+                            <div class="currently-label">Working On</div>
+                            <div class="currently-value">Snowflake Migration & dbt Models</div>
+                        </div>
+                        <div class="currently-item">
+                            <div class="currently-icon">📍</div>
+                            <div class="currently-label">Based In</div>
+                            <div class="currently-value">Hanoi, Vietnam 🇻🇳</div>
+                        </div>
+                        <div class="currently-item">
+                            <div class="currently-icon">🎯</div>
+                            <div class="currently-label">Next Goal</div>
+                            <div class="currently-value">INSEAD MBA by 2027</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fun Facts Grid -->
+                <div class="fun-facts">
+                    <h3 class="fun-facts-title">Quick Facts</h3>
+                    <div class="facts-grid">
+                        <div class="fact-card">
+                            <div class="fact-icon">🌏</div>
+                            <div class="fact-content">
+                                <div class="fact-number">10+</div>
+                                <div class="fact-label">ASEAN Countries Worked</div>
+                            </div>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">💻</div>
+                            <div class="fact-content">
+                                <div class="fact-number">5M+</div>
+                                <div class="fact-label">Records Processed</div>
+                            </div>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">🎓</div>
+                            <div class="fact-content">
+                                <div class="fact-number">4</div>
+                                <div class="fact-label">Graduate Degrees (in progress)</div>
+                            </div>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">🗣️</div>
+                            <div class="fact-content">
+                                <div class="fact-number">3</div>
+                                <div class="fact-label">Languages Spoken</div>
+                            </div>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">☕</div>
+                            <div class="fact-content">
+                                <div class="fact-number">4+</div>
+                                <div class="fact-label">Coffees Per Day</div>
+                            </div>
+                        </div>
+                        <div class="fact-card">
+                            <div class="fact-icon">⚡</div>
+                            <div class="fact-content">
+                                <div class="fact-number">70%</div>
+                                <div class="fact-label">Efficiency Gains Achieved</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -130,7 +215,7 @@
                 <h2 class="section-title">Professional Experience</h2>
                 
                 <div class="timeline">
-                    <div class="timeline-item">
+                    <div class="timeline-item" data-color="blue">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="experience-header">
@@ -152,7 +237,7 @@
                         </div>
                     </div>
 
-                    <div class="timeline-item">
+                    <div class="timeline-item" data-color="green">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="experience-header">
@@ -173,7 +258,7 @@
                         </div>
                     </div>
 
-                    <div class="timeline-item">
+                    <div class="timeline-item" data-color="purple">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="experience-header">
@@ -194,7 +279,7 @@
                         </div>
                     </div>
 
-                    <div class="timeline-item">
+                    <div class="timeline-item" data-color="orange">
                         <div class="timeline-marker"></div>
                         <div class="timeline-content">
                             <div class="experience-header">
@@ -280,81 +365,187 @@
             <div class="section-container">
                 <h2 class="section-title">Skills & Expertise</h2>
                 
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <h3>Programming</h3>
-                        <div class="skill-tags">
-                            <span class="tag">SQL</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">R</span>
-                            <span class="tag">JavaScript</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Data Engineering</h3>
-                        <div class="skill-tags">
-                            <span class="tag">dbt</span>
-                            <span class="tag">Prefect</span>
-                            <span class="tag">Snowflake</span>
-                            <span class="tag">Azure</span>
-                            <span class="tag">PostgreSQL</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3>Analytics & BI</h3>
-                        <div class="skill-tags">
-                            <span class="tag">Power BI</span>
-                            <span class="tag">Tableau</span>
-                            <span class="tag">Excel</span>
-                            <span class="tag">DHIS 2</span>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-brain"></i>
-                        </div>
-                        <h3>Advanced Analytics</h3>
-                        <div class="skill-tags">
-                            <span class="tag">Machine Learning</span>
-                            <span class="tag">Forecasting</span>
-                            <span class="tag">Statistical Modeling</span>
+                <div class="skills-wrapper">
+                    <!-- Technical Skills with Progress Bars -->
+                    <div class="skills-category-section">
+                        <h3 class="skills-category-title">
+                            <i class="fas fa-code"></i> Programming & Databases
+                        </h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">R</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">PostgreSQL / SQL Server</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-flask"></i>
-                        </div>
-                        <h3>Methodologies</h3>
-                        <div class="skill-tags">
-                            <span class="tag">Econometrics</span>
-                            <span class="tag">Causal Inference</span>
-                            <span class="tag">M&E</span>
-                            <span class="tag">Impact Assessment</span>
+                    <div class="skills-category-section">
+                        <h3 class="skills-category-title">
+                            <i class="fas fa-database"></i> Data Engineering & Cloud
+                        </h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">dbt</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="92"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Prefect / Airflow</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Snowflake</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Azure</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="75"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="skill-category">
-                        <div class="skill-icon">
-                            <i class="fas fa-language"></i>
+                    <div class="skills-category-section">
+                        <h3 class="skills-category-title">
+                            <i class="fas fa-chart-line"></i> Analytics & BI Tools
+                        </h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="93"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Tableau</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Excel (Advanced)</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="95"></div>
+                                </div>
+                            </div>
                         </div>
-                        <h3>Languages</h3>
-                        <div class="skill-tags">
-                            <span class="tag">English (Fluent)</span>
-                            <span class="tag">Vietnamese (Native)</span>
-                            <span class="tag">Japanese (Basic)</span>
+                    </div>
+
+                    <div class="skills-category-section">
+                        <h3 class="skills-category-title">
+                            <i class="fas fa-brain"></i> Advanced Methods
+                        </h3>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Econometrics & Causal Inference</span>
+                                    <span class="skill-level">Expert</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-header">
+                                    <span class="skill-name">Statistical Modeling</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar-bg">
+                                    <div class="skill-bar-fill" data-width="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Language Skills -->
+                <div class="language-skills">
+                    <h3 class="skills-category-title">
+                        <i class="fas fa-language"></i> Languages
+                    </h3>
+                    <div class="language-grid">
+                        <div class="language-item">
+                            <div class="language-flag">🇺🇸</div>
+                            <div class="language-name">English</div>
+                            <div class="language-level">Fluent</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-flag">🇻🇳</div>
+                            <div class="language-name">Vietnamese</div>
+                            <div class="language-level">Native</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-flag">🇯🇵</div>
+                            <div class="language-name">Japanese</div>
+                            <div class="language-level">Basic (JLPT N5)</div>
                         </div>
                     </div>
                 </div>
@@ -367,7 +558,7 @@
                 <h2 class="section-title">Key Projects</h2>
                 
                 <div class="projects-grid">
-                    <div class="project-card">
+                    <div class="project-card" data-theme="blue">
                         <div class="project-icon">
                             <i class="fas fa-hospital"></i>
                         </div>
@@ -395,7 +586,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" data-theme="green">
                         <div class="project-icon">
                             <i class="fas fa-seedling"></i>
                         </div>
@@ -422,7 +613,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" data-theme="purple">
                         <div class="project-icon">
                             <i class="fas fa-heartbeat"></i>
                         </div>
@@ -449,7 +640,7 @@
                         </div>
                     </div>
 
-                    <div class="project-card">
+                    <div class="project-card" data-theme="orange">
                         <div class="project-icon">
                             <i class="fas fa-globe-asia"></i>
                         </div>

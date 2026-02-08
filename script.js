@@ -161,4 +161,22 @@ statNumbers.forEach(stat => {
     statsObserver.observe(stat);
 });
 
+// Skill bar animation on scroll
+const skillBars = document.querySelectorAll('.skill-bar-fill');
+const skillBarsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+            entry.target.classList.add('animated');
+            const width = entry.target.getAttribute('data-width');
+            setTimeout(() => {
+                entry.target.style.width = width + '%';
+            }, 200);
+        }
+    });
+}, { threshold: 0.3 });
+
+skillBars.forEach(bar => {
+    skillBarsObserver.observe(bar);
+});
+
 console.log('✅ Portfolio initialized successfully!');
